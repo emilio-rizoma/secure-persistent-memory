@@ -16,6 +16,7 @@
 		4C92E250266C6917009EEA5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C92E24E266C6917009EEA5A /* LaunchScreen.storyboard */; };
 		4C92E25B266C6917009EEA5A /* KeychainWrapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C92E25A266C6917009EEA5A /* KeychainWrapperTests.swift */; };
 		4C92E266266C6917009EEA5A /* KeychainWrapperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C92E265266C6917009EEA5A /* KeychainWrapperUITests.swift */; };
+		4C92E27D266C7111009EEA5A /* SecurePersistentMemory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C92E27C266C7111009EEA5A /* SecurePersistentMemory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4C92E261266C6917009EEA5A /* KeychainWrapperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeychainWrapperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C92E265266C6917009EEA5A /* KeychainWrapperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainWrapperUITests.swift; sourceTree = "<group>"; };
 		4C92E267266C6917009EEA5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C92E27C266C7111009EEA5A /* SecurePersistentMemory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurePersistentMemory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		4C92E23F266C6916009EEA5A /* KeychainWrapper */ = {
 			isa = PBXGroup;
 			children = (
+				4C92E276266C6924009EEA5A /* SecureEntry */,
 				4C92E240266C6916009EEA5A /* AppDelegate.swift */,
 				4C92E242266C6916009EEA5A /* SceneDelegate.swift */,
 				4C92E244266C6916009EEA5A /* ViewController.swift */,
@@ -129,6 +132,14 @@
 				4C92E267266C6917009EEA5A /* Info.plist */,
 			);
 			path = KeychainWrapperUITests;
+			sourceTree = "<group>";
+		};
+		4C92E276266C6924009EEA5A /* SecureEntry */ = {
+			isa = PBXGroup;
+			children = (
+				4C92E27C266C7111009EEA5A /* SecurePersistentMemory.swift */,
+			);
+			path = SecureEntry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +276,7 @@
 				4C92E24B266C6916009EEA5A /* KeychainWrapper.xcdatamodeld in Sources */,
 				4C92E241266C6916009EEA5A /* AppDelegate.swift in Sources */,
 				4C92E243266C6916009EEA5A /* SceneDelegate.swift in Sources */,
+				4C92E27D266C7111009EEA5A /* SecurePersistentMemory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
